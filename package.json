@@ -1,0 +1,23 @@
+{
+  "name": "no-ip",
+  "version": "1.0.0",
+  "description": "Automatiza la confirmacion de host DDNS de No-IP usando Playwright y Gmail IMAP.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "confirm": "node index.js",
+    "confirm:headless": "node index.js --headless",
+    "check": "node --check index.js",
+    "test": "node --check index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "imapflow": "^1.3.3",
+    "mailparser": "^3.9.8",
+    "playwright": "^1.60.0"
+  }
+}
