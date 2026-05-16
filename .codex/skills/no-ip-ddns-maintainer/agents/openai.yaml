@@ -1,0 +1,4 @@
+interface:
+  display_name: "No-IP DDNS Maintainer"
+  short_description: "Maintain and debug No-IP DDNS renewal automation."
+  default_prompt: "Use $no-ip-ddns-maintainer to diagnose or update the No-IP DDNS confirmation automation project."

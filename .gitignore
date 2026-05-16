@@ -1,6 +1,6 @@
 node_modules/
 .env
+.playwright-profile/
 playwright-report/
 test-results/
 artifacts/
-
